@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de inicio</title>
-    <!-- iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
@@ -19,14 +18,14 @@
         }
 
         .top-box, .bottom-box {
-            background-color: #ADD8E6; /* Verde */
+            background-color: #ADD8E6; 
             height: 100px;
             width: 100%;
         }
 
         .logo-container {
             position: absolute;
-            top: 50px; /* Ajustado para el cuadro superior */
+            top: 50px; 
             width: 95%;
             display: flex;
             justify-content: space-between;
@@ -39,43 +38,39 @@
 
         .header-text {
             text-align: center;
-            margin-top: 30px; /* Ajustado por el cuadro superior */
+            margin-top: 30px; 
             font-size: 24px;
             font-weight: bold;
         }
 
-        /* Línea divisora */
         .divider {
             width: 50%;
             margin: 0px auto;
             border-bottom: 2px solid GRAY;
         }
 
-      < /* Contenedor del slider */
+      < 
         .image-slider {
-            width: 8%; /* Ajusta el tamaño */
-            margin: 5px auto; /* Centra el carrusel */
+            width: 8%; 
+            margin: 5px auto; 
            overflow: hidden;
             border: 2px solid #45a049;
             border-radius: 5px;
 	position: relative;
         }
 
-        /* Contenedor interno */
         .slider-container {
-            display: flex; /* Coloca las imágenes en línea */
-            width: calc(40% * 10); /* 10 imágenes */
+            display: flex; 
+            width: calc(40% * 10);
             animation: slide 20s infinite alternate ease-in-out;
 	 
 	}
-        /* Imágenes individuales */
         .slider-container img {
-            width: 3.5%; /* Cada imagen ocupa todo el ancho del contenedor */
+            width: 3.5%; 
             flex-shrink: 0;
-            object-fit: cover; /* Ajusta la imagen para cubrir el espacio */
+            object-fit: cover; 
         }
 
-        /* Animación */
         @keyframes slide {
             0% { transform: translateX(0); }
             10% { transform: translateX(-1%); }
@@ -143,26 +138,23 @@
 </head>
 <body>
 
-    <!-- Cuadro superior -->
     <div class="top-box"></div>
 
-    <!-- Logos -->
     <div class="logo-container">
         <img src="R1.jpg" alt="Logo 1">
         <img src="R2.jpg" alt="Logo 2">
     </div>
 
-    <!-- Texto principal -->
     <div class="header-text">
         <h2>Universidad de Ciencias y Artes de Chiapas</h2>
         <h4>Ingeniería Ambiental</h4>
         <h5>"APROVECHAMIENTO DE RECURSOS DISPONIBLES EN UN INVERNADERO MEDIANTE UN SISTEMA EMBEBIDO"</h5>
     </div>
 
-    <!-- Línea divisora -->
+    <!-- Línea  -->
     <div class="divider"></div>
 
-    <!-- Figura entre las líneas -->
+    <!-- Figuras -->
    <div class="image-slider">
         <div class="slider-container">
             <img src="1.jpeg" alt="Imagen 1">
@@ -178,10 +170,10 @@
         </div>
     </div>
 
-    <!-- Línea divisora -->
+    <!-- Línea  -->
     <div class="divider"></div>
 
-    <!-- Botones centrados -->
+    <!-- Botones  -->
     <div class="button-container">
         <a href=" https://mokasama.github.io/Tesis_Invernadero/" target="_blank">Servidor local</a>
         <a href="https://io.adafruit.com/Enviromental_green/dashboards/composta" target="_blank">Composta</a>
@@ -189,10 +181,10 @@
     </div>
 
   
-    <!-- Línea divisora -->
+    <!-- Línea  -->
     <div class="divider"></div>
 
-    <!-- Cuadro inferior -->
+    <!-- Cuadro  -->
     <div class="bottom-box"></div>
 
 <div class="bottom-box">
